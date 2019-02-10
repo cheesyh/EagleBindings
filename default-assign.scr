@@ -15,6 +15,15 @@ ASSIGN F8 Grid mm .5 2 alt mm .125
 ASSIGN S+F8 Grid mm .125 2 alt mm .0625
 ASSIGN CS+F8 Grid mm .0001 2 alt mm .0625
 
+
+ASSIGN C+6 Grid mil 100 1 alt 10
+ASSIGN CA+6 Grid mil 8 4 alt mil 4 
+ASSIGN C+1 Grid mm .5 2 alt mm .125
+ASSIGN A+1 Grid mm .125 2 alt mm .0625
+ASSIGN CA+1 Grid mm .0001 2 alt mm .125
+
+
+
 ASSIGN AS+S SPLIT;
 
 ASSIGN C+Z UNDO;
