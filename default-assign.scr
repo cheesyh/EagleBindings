@@ -49,6 +49,24 @@ ASSIGN A+M MARK;
 
 BRD:
 
+ASSIGN F7 Grid mil 100 1 alt 10
+ASSIGN S+F7 Grid mil 8 4 alt mil 4 
+ASSIGN F8 Grid mm .5 2 alt mm .125
+ASSIGN S+F8 Grid mm .125 2 alt mm .0625
+ASSIGN CS+F8 Grid mm .0001 2 alt mm .0625
+
+
+ASSIGN C+6 Grid mil 100 1 alt 10
+ASSIGN CA+6 Grid mil 8 4 alt mil 4 
+ASSIGN C+1 Grid mm .5 2 alt mm .125
+ASSIGN A+1 Grid mm .125 2 alt mm .0625
+ASSIGN CA+1 Grid mm .0001 2 alt mm .125
+
+ASSIGN C+2 Display none 1 17 18 20 49 51
+ASSIGN A+2 Display none 1 17 18 20 21 23 39 49 51
+
+ASSIGN C+4 Display none 16 17 18 20 49 52
+ASSIGN A+4 Display none 16 17 18 20 22 24 40 49 52
 
 
 ASSIGN F1 Display none 1 17 18 20 49 51
@@ -93,6 +111,7 @@ ASSIGN C+D Junction;
 
 LBR:
 ASSIGN C+E EDIT;
+
 
 DEV:
 ASSIGN A+C CONNECT;
